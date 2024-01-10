@@ -6,7 +6,7 @@ Creación colecciones Users y Posts
 db.createCollection(‘Users’)
 db.createCollection(‘Posts’)
 
-db.products.insertMany([
+db.posts.insertMany([
 
 { title: "El espacio exterior", body: "este es el texto", username: "usuario"},
 
